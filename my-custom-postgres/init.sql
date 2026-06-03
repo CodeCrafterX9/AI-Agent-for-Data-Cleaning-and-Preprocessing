@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS sample_taxi_data (
+CREATE TABLE IF NOT EXISTS ny_taxi_data (
     id INT,
     customer_name VARCHAR(100),
     signup_date DATE,
