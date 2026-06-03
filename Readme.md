@@ -77,6 +77,44 @@ Check whether the container is running:
 docker ps -a
 ```
 
+## Python Virtual Environment Setup
+
+Move to the project root directory:
+
+```bash
+cd ..
+```
+
+Activate the virtual environment:
+
+```bash
+source ai_data_cleaning_agent/bin/activate
+```
+
+If the virtual environment does not already exist, create it first:
+
+```bash
+python -m venv ai_data_cleaning_agent
+```
+
+Then activate it and install the project dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## Verify PostgreSQL Connection
+
+To verify that the application can connect to PostgreSQL, make sure you are in the project's root directory and run:
+
+```bash
+python scripts/test_postgres_connection.py
+```
+
+If everything is configured correctly and the Docker container is running, you should see a successful database connection message.
+
 ## Project Goal
 
 This project aims to build an intelligent AI Agent capable of:
