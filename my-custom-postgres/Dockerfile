@@ -11,4 +11,3 @@ EXPOSE 5432
 
 # Note: Postgres image ka default behaviour hota hai ki wo 
 # container start hote hi database up kar deti hai.
-COPY init.sql /docker-entrypoint-initdb.d/
