@@ -43,8 +43,8 @@ Verify that the image was created successfully:
 ```bash
 docker images
 ```
-
 Expected output should contain the image name
+
 ---
 
 ### Step 3: Create and Start the Docker Container
@@ -95,6 +95,8 @@ This project aims to build an intelligent AI Agent capable of:
 ```text
 AI-Agent-for-Data-Cleaning-and-Preprocessing/
 │
+├── ai_data_cleaning_agent/ (.venv)
+|
 ├── my-custom-postgres/
 │   ├── Dockerfile
 │   └── init.sql
