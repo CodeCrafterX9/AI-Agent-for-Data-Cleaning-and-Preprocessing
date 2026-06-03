@@ -113,7 +113,7 @@ To verify that the application can connect to PostgreSQL, make sure you are in t
 python scripts/test_postgres_connection.py
 ```
 
-If everything is configured correctly and the Docker container is running, you should see a successful database connection message.
+If everything is configured correctly and the Docker container is running, you should see a successful database connection message
 
 ## Project Goal
 
